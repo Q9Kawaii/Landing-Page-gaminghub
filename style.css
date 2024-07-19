@@ -9,11 +9,10 @@
 .bodycontainer{
     display: flex;
             width: 100%;
-            align-items: center;
+            align-items: center; 
 }
 .navbar{
-    display: flex;
-    height: 67px;
+    display: flex; 
 }
 .navbar li{
     list-style: none;
@@ -119,7 +118,7 @@
 }
 
 .logo:hover {
-    animation: shake 0.4s infinite;
+    animation: shake 0.4s;
 }
 .footer{
     background-color: #222222;
@@ -138,5 +137,8 @@
 .fboxdiv {
     height: 90%;
     width: 98%;
+}
+.button-1{
+    height: 100%;
 }
 
